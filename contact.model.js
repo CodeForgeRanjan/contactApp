@@ -28,7 +28,3 @@ const contactSchema = mongoose.Schema({
 const contact = mongoose.model("Contact", contactSchema);
 // module.exports contact;
 export default contact;
-
-//note-jab v ham data ko export krege to server.js me hame import krna hoga
-//note-jab v ham data ko new files banaye wnha  hame server.js me se (import mongoose from "mongoose";
-// )krna hoga
