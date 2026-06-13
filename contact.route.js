@@ -22,7 +22,7 @@ router.get("/show-contact/:id", async (req, res) => {
   const contact = await Contact.findById(req.params.id);
   res.render("show-contact", { contact });
 });
-// res.json(contacts); ye json me dikhane ke liye use kiye hai
+
 
 router.post("/add-contact", async (req, res) => {
   try {
